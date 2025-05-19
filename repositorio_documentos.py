@@ -20,6 +20,7 @@ if uploaded_file and cliente:
         f.write(uploaded_file.getbuffer())
     st.success(f"Archivo guardado en la carpeta de {cliente}")
 
+
 # Mostrar archivos subidos por cliente
 if os.path.exists("uploads"):
     st.subheader("📁 Archivos guardados")
